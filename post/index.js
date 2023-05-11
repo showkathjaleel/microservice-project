@@ -11,6 +11,7 @@ app.use(cors())
 app.get("/posts", (req , res) => {
     console.log("post il 111111111")
     res.status(201).json(posts)
+    console.log('helo')
 })
 
 const posts={}
